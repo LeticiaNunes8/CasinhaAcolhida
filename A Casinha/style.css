@@ -1,0 +1,63 @@
+body{
+    font-family: 'roboto';
+}
+.header{
+    /*position: absolute;*/
+    display: flex;
+    width: 100%;
+    height: 207px;
+}
+
+.icon-logo{
+    width: 40%;
+    height: 207px;
+    padding-top: 70px;
+    padding-left: 50px;
+    
+}
+
+.link{
+    width: 60%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+
+}
+/*.formatura{
+    width: 100%;
+    height: 1px;
+}*/
+
+.info{
+    width: 1275px;
+    height: 224px;
+    padding-left: 83px;
+    font-style: normal
+}
+#titulo{
+    width: 164px;
+    height: 42px;
+    color: #702283;
+    font-size: 36px;
+    font-weight: 700;
+}
+.texto{
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+}
+#titulo2{
+    width: 468px;
+    height: 42px;
+    color: #702283;
+    font-size: 36px;
+    font-weight: 700;
+
+}
