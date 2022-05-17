@@ -97,3 +97,16 @@ a:hover {
   position: absolute;
   margin-top: 280px;
 }
+
+/*div por que ajudar casinha*/
+.conteudo1{
+  width: 80%;
+  height: 158px;
+  padding-left: 83px;
+}
+
+.titulo{
+  color: #702283;
+  font-size: 36px;
+  font-weight: 700;
+}
