@@ -99,25 +99,23 @@ a:hover {
 }
 
 /*div por que ajudar casinha*/
-.conteudo1{
+.conteudo1 {
   width: 80%;
   height: 90px;
   padding-left: 83px;
 }
 
-.titulo{
+.titulo {
   color: #702283;
   font-size: 36px;
   font-weight: 700;
 }
 
-.svg{
+.svg {
   width: 80%;
   height: 250px;
   padding-left: 83px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
-
