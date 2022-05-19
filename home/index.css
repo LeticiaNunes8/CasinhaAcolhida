@@ -98,24 +98,37 @@ a:hover {
   margin-top: 280px;
 }
 
-/*div por que ajudar casinha*/
+/*div por que ajudar casinha e como contribuir*/
 .titulo {
   height: 20px;
-  padding-left: 83px;
+  margin-left: 76px;
   color: #702283;
   font-size: 36px;
   font-weight: 700;
 }
 
 .svg-todos {
-  width: 80%;
   height: 100px;
-  padding-left: 83px;
+  margin-left: 76px;
+
   display: flex;
   flex-direction: row;
+  vertical-align: center;
   justify-content: space-between;
 }
+.svg {
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  width: 350px;
+  height: 100px;
+}
 
-.texto {
-  width: 15%;
+.icon-contr,
+.circulo {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  padding-right: 15px;
 }
