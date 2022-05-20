@@ -115,6 +115,7 @@ a:hover {
   flex-direction: row;
   vertical-align: center;
   justify-content: space-between;
+  
 }
 
 .svg {
@@ -134,10 +135,119 @@ a:hover {
   padding-right: 15px;
 }
 
+/*Nossa Historia*/
+
+.outras_info{
+  width: 800px;
+  height: 30px;
+  margin-left: 76px;
+  margin-top: 40px;
+
+}
+
+.link-casinha:hover,
+.link-casinha{
+  text-decoration: underline;
+  color: #ED75B2
+}
+
+/*Nossa historia*/
+
+.engloba-nossa-historia{
+  height: 480px;
+}
+
+.nossa-historia{
+  position: relative;
+  top: 110px;
+  height: 364px;
+  padding-top: 50px;
+  background-color: #F4F4F4;
+}
+.titulo-historia{
+  height: 20px;
+  margin-left: 76px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  
+
+}
+.todos-retangulos{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: 200px;
+  margin-left: 400px;
+  margin-top: -220px;
+}
+
+.retangulo{
+  width: 251.72px;
+  height: 251.72px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+  /*box-shadow: 4px, 10px, #000000;*/
+}
+.quantidade{
+  font-weight: bold;
+  color: #007940;
+  font-size: 64px;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+.texto-retangulo{
+  text-align: left;
+  color: #535353;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight:lighter;
+  margin-top: -40px;
+}
+
+.saber-mais{
+  position: relative;
+  bottom: 150px;
+  left: 400px;
+  font-size: 24px;
+  /*box-shadow: 5px, #000000;*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 
 footer {
-  background: linear-gradient(180deg, rgb(255, 247, 231) 12%, #edb9cc 80%);
+  background: linear-gradient(180deg, rgb(255, 254, 253) 30%, #eec5d4 70%);
   height: 751px;
   width: 100%;
   vertical-align: center;
