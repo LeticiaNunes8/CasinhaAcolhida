@@ -7,6 +7,7 @@
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
+  margin: 0px;
 }
 
 /* Header principal */
@@ -60,7 +61,7 @@ a:hover {
 
 /*Imagem principal*/
 .imagem {
-  background-image: url("../img/banner.png");
+  background-image: url("img/banner.png");
   width: 100%;
   height: 827px;
   background-position: center;
@@ -68,7 +69,7 @@ a:hover {
 }
 
 /* Botão dentro da imagem*/
-.botao {
+.botao-doar {
   font-family: var(--primary-font);
   background-color: var(--primary-color);
   color: white;
@@ -104,7 +105,7 @@ a:hover {
 /*div por que ajudar casinha e como contribuir*/
 .titulo {
   height: 20px;
-  margin-left: 76px;
+  padding-left: 76px;
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
@@ -235,17 +236,17 @@ a:hover {
   background: #f4f4f4;
 }
 
-.todos-pop-up {
+.todos-botoes {
   position: relative;
   bottom: 480px;
   left: 800px;
   width: 35%;
-  height: 420px;
+  height: 490px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.pop-up {
+.botao-atuacao {
   width: 186px;
   height: 186px;
   background: white;
@@ -253,20 +254,26 @@ a:hover {
   font-weight: bold;
   border-radius: 30px;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  border: none;
+  font-size: 21px;
 }
-.info-pop-up {
-  display: flex;
-  justify-content: center;
+.botao-atuacao:hover{
+  cursor: pointer;
+}
+.botao-atuacao-info {
   position: relative;
-  top: 100px;
+  top: 30px;
 }
+
 .info-atuacao {
-  position: relative;
-  bottom: 30px;
-  margin-left: 76px;
-  font-weight: 300;
+  width: 800px;
+  height: 0px;
   font-size: 24px;
-  line-height: 28px;
+  font-weight: 300px;
+  position: relative;
+  top: 30px;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
 
 /*Parceiros*/
@@ -312,11 +319,11 @@ a:hover {
 }
 
 .natalia {
-  background-image: url("../img/foto-nat.jpeg");
+  background-image: url("img/foto-nat.jpeg");
 }
 
 .doug {
-  background-image: url("../img/foto-doug.jpg");
+  background-image: url("img/foto-doug.jpg");
 }
 
 /* Textos Natalia e Doug*/
