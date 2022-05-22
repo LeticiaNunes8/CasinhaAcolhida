@@ -7,12 +7,12 @@
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
-  font-weight: 400px;
 }
 
 /* Header principal */
 .header {
   display: flex;
+  justify-content: row;
   width: 100%;
   height: 207px;
   background: linear-gradient(
@@ -115,7 +115,6 @@ a:hover {
   flex-direction: row;
   vertical-align: center;
   justify-content: space-between;
-  
 }
 
 .svg {
@@ -137,87 +136,89 @@ a:hover {
 
 /*Nossa Historia*/
 
-.outras_info{
+.outras_info {
   width: 800px;
   height: 30px;
   margin-left: 76px;
   margin-top: 40px;
-
 }
 
 .link-casinha:hover,
-.link-casinha{
+.link-casinha {
   text-decoration: underline;
-  color: #ED75B2
+  color: #ed75b2;
 }
 
 /*Nossa historia*/
 
-.engloba-nossa-historia{
+.engloba-nossa-historia {
   height: 480px;
+  width: 100%;
 }
 
-.nossa-historia{
+.nossa-historia {
   position: relative;
   top: 110px;
   height: 364px;
   padding-top: 50px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
-.titulo-historia{
+.titulo-historia {
   height: 20px;
   margin-left: 76px;
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
 }
-.todos-retangulos{
-  width: 60%;
+.todos-retangulos {
+  width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
   position: relative;
   bottom: 200px;
-  margin-left: 400px;
+  margin-left: 280px;
   margin-top: -220px;
 }
 
-.retangulo{
+.retangulo {
   width: 251.72px;
   height: 251.72px;
+  margin-left: 10px;
   border-radius: 30px;
   margin-bottom: 20px;
   background-color: white;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
-.quantidade{
+.quantidade {
   font-weight: bold;
   color: #007940;
   font-size: 64px;
   padding-top: 10px;
   padding-left: 10px;
-
 }
-.texto-retangulo{
+.texto-retangulo {
   text-align: left;
   color: #535353;
   font-size: 20px;
   padding-left: 20px;
-  font-weight:lighter;
+  font-weight: lighter;
   margin-top: -40px;
 }
 
-.saber-mais{
+.saber-mais {
+  width: 90%;
+  display: flex;
+  justify-content: right;
   position: relative;
   bottom: 150px;
-  left: 400px;
-  font-size: 24px;
+  font-size: 22px;
   text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
 
 /*áreas de atuação*/
 
-.titulo-atuacao{
+.titulo-atuacao {
   height: 130px;
   margin-left: 76px;
   color: var(--primary-color);
@@ -226,13 +227,13 @@ a:hover {
   text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
 
-.area-atuacao{
+.area-atuacao {
   width: 100%;
   height: 480px;
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 
-.todos-pop-up{
+.todos-pop-up {
   position: relative;
   bottom: 480px;
   left: 800px;
@@ -242,7 +243,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.pop-up{
+.pop-up {
   width: 186px;
   height: 186px;
   background: white;
@@ -251,43 +252,99 @@ a:hover {
   border-radius: 30px;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
-.info-pop-up{
+.info-pop-up {
   display: flex;
   justify-content: center;
   position: relative;
   top: 100px;
-
 }
-.info-atuacao{
+.info-atuacao {
   position: relative;
-  bottom: 420px;
-  left: 900px;
+  bottom: 30px;
+  margin-left: 76px;
+  font-weight: 300;
   font-size: 24px;
+  line-height: 28px;
 }
 
+/*Parceiros*/
+.div-parceiros {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 
+/*Equipe*/
+.div-equipe {
+  margin-top: 10%;
+  width: 100%;
+}
 
+/*Natalia e Doug - Div maior*/
 
+.natalia-maior,
+.doug-maior {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
 
+.natalia-maior {
+  padding-bottom: 10%;
+}
 
+.doug-maior {
+  padding-bottom: 5%;
+}
 
+/*Fotos*/
+.natalia,
+.doug {
+  width: 270px;
+  height: 258.04px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: 76px;
+}
 
+.natalia {
+  background-image: url("../img/foto-nat.jpeg");
+}
 
+.doug {
+  background-image: url("../img/foto-doug.jpg");
+}
 
+/* Textos Natalia e Doug*/
+.infos-natalia,
+.infos-doug {
+  padding-left: 40px;
+  width: 815px;
+  height: 120px;
+  text-align: justify;
+}
 
+.natalia-nome,
+.doug-nome {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0px;
+}
 
+/*Conheça equipe*/
+.conheca {
+  margin-left: 76px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+span {
+  color: red;
+}
 
 /*footer*/
 
@@ -305,6 +362,7 @@ footer {
   vertical-align: center;
 }
 
+/*Links e ícone da página no footer - canto esquerdo*/
 .os-links {
   margin-left: 76px;
   font-family: var(--primary-font);
@@ -317,6 +375,7 @@ footer {
   margin-left: 76px;
 }
 
+/*Títulos do meio e canto direito*/
 .fale-title,
 .contatos-title {
   height: 20px;
@@ -326,6 +385,8 @@ footer {
   padding-bottom: 20px;
   padding-top: 60px;
 }
+
+/*Texto menor das 3 sessoes*/
 .os-links,
 .contatos,
 .fale-conosco {
@@ -335,6 +396,30 @@ footer {
   font-weight: lighter;
 }
 
+/*ícones*/
+#icone-lk {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-fb {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-inst {
+  width: 26px;
+  height: 26px;
+}
+
+.icons {
+  width: 130px;
+  display: inline-flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+/*Formulário*/
 input {
   height: 32px;
   width: 262px;
@@ -374,6 +459,7 @@ textarea {
   cursor: pointer;
 }
 
+/*Copyright*/
 .copyright {
   display: flex;
   justify-content: center;

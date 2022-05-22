@@ -1,0 +1,199 @@
+/* Variáveis */
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-color: #702283;
+}
+
+/* Informações do Body */
+body {
+  font-family: var(--primary-font);
+  font-weight: 400px;
+}
+
+/* Header principal */
+.header {
+  display: flex;
+  width: 100%;
+  height: 207px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 247, 231) 12%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+/* Logo roxa do header */
+.icon-logo {
+  width: 40%;
+  height: 207px;
+  padding-top: 60px;
+  margin-left: 76px;
+}
+
+/*Links da Header */
+.link {
+  width: 60%;
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+a {
+  font-family: var(--primary-font);
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Link ativado da header */
+.active {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/*imagem em breve*/
+
+#banner-embreve {
+  width: 100%;
+  height: 424px;
+}
+
+.titulo-embreve {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.div-embreve {
+  font-family: var(--primary-font);
+  margin-left: 76px;
+  margin-top: 105px;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/*footer*/
+
+footer {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 12%, #edb9cc 80%);
+  height: 751px;
+  width: 100%;
+  vertical-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  vertical-align: center;
+}
+
+.os-links {
+  margin-left: 76px;
+  font-family: var(--primary-font);
+  line-height: 10px;
+  padding-top: 15px;
+}
+
+.icon-footer {
+  padding-top: 60px;
+  margin-left: 76px;
+}
+
+.fale-title,
+.contatos-title {
+  height: 20px;
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.os-links,
+.contatos,
+.fale-conosco {
+  width: 350px;
+  height: 393px;
+  line-height: 10px;
+  font-weight: lighter;
+}
+
+/*ícones*/
+#icone-lk {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-fb {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-inst {
+  width: 26px;
+  height: 26px;
+}
+
+.icons {
+  width: 130px;
+  display: inline-flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+input {
+  height: 32px;
+  width: 262px;
+  background: #ffffff;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  border-color: transparent;
+  font-family: var(--primary-font);
+  padding-left: 20px;
+}
+
+textarea {
+  width: 262px;
+  background: #ffffff;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  border-color: transparent;
+  font-family: var(--primary-font);
+  padding-left: 20px;
+}
+
+.enviar-botao {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 20px;
+  border: 3px solid var(--primary-color);
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  height: 32px;
+  width: 288px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.enviar-botao:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
