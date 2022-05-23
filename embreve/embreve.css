@@ -8,6 +8,7 @@
 body {
   font-family: var(--primary-font);
   font-weight: 400px;
+  margin: 0px;
 }
 
 /* Header principal */

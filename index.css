@@ -8,6 +8,7 @@
 body {
   font-family: var(--primary-font);
   margin: 0px;
+  height: 537px;
 }
 
 /* Header principal */
@@ -236,11 +237,16 @@ a:hover {
   background: #f4f4f4;
 }
 
+.areas-pessoas {
+  display: flex;
+  justify-content: left;
+}
+
 .todos-botoes {
   position: relative;
   bottom: 480px;
   left: 800px;
-  width: 35%;
+  width: 40%;
   height: 490px;
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +264,7 @@ a:hover {
   border: none;
   font-size: 21px;
 }
-.botao-atuacao:hover{
+.botao-atuacao:hover {
   cursor: pointer;
 }
 .botao-atuacao-info {
@@ -275,19 +281,33 @@ a:hover {
   top: 30px;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
-
 /*Parceiros*/
 .div-parceiros {
   display: flex;
   justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  margin-left: 76px;
+  position: relative;
+  bottom: 300px;
+}
+
+#titulo-parceiros {
+  position: relative;
+  bottom: 300px;
 }
 
 /*Equipe*/
 .div-equipe {
   margin-top: 10%;
   width: 100%;
+  position: relative;
+  bottom: 300px;
+}
+
+#titulo-equipe {
+  position: relative;
+  bottom: 300px;
 }
 
 /*Natalia e Doug - Div maior*/
@@ -349,6 +369,8 @@ a:hover {
   font-weight: 300;
   font-size: 24px;
   line-height: 28px;
+  position: relative;
+  bottom: 300px;
 }
 
 span {
@@ -362,6 +384,8 @@ footer {
   height: 751px;
   width: 100%;
   vertical-align: center;
+  position: relative;
+  bottom: 300px;
 }
 
 .footer {
