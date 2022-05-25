@@ -15,9 +15,9 @@ body {
 #header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0px;
   width: 100%;
-  vertical-align: middle;
   height: 207px;
   background: linear-gradient(
     180deg,
@@ -27,30 +27,38 @@ body {
 }
 
 /* Logo roxa do header */
-.icon-logo {
-  height: fit-content;
-  width: 100%;
-  padding-top: 60px;
-  margin-left: 76px;
+
+#logo {
+  margin: 0px;
+  height: 70px;
+  width: 70px;
+}
+
+#coluna-icone {
+  margin: 0;
+  padding-left: 76px;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 /*Links da Header */
 
 #col-links {
   display: flex;
-  vertical-align: middle;
   justify-content: space-between;
   font-size: 20px;
   height: fit-content;
-  padding-top: 75px;
   padding-right: 70px;
+  width: 800px;
 }
 
 a {
   font-family: var(--primary-font);
   text-decoration: none;
   color: black;
-  margin-right: 30px;
 }
 
 a:hover {
