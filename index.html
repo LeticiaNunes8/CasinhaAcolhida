@@ -6,20 +6,23 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link href="index.css" rel="stylesheet">
         <link href="img/logo-roxo.png" rel="icon">
 
     </head>
     <body>
         <header>
-        <div class = "header">
+        <div class ='row' id="header">
+            <div class="col-4">
             <div class="icon-logo">
                 <a href="index.html">
-                <img id="logo" src="img/logo-roxo.png" style="width: 15%;"></img>
+                <img id="logo" class="img-fluid" src="img/logo-roxo.png" style="width: 15%;"></img>
                  </a>           
             </div>
-
-            <div class="link">
+            </div>
+        <div class="col-8" id="col-links">
+            
                 <a class='inicio' href="index.html">Início</a>
                 <a href="embreve/embreve.html" >A Casinha</a>
                 <a href="embreve/embreve.html" >Projetos</a>
@@ -27,7 +30,9 @@
                 <a href="embreve/embreve.html" >Doar agora</a>
                 <a href="embreve/embreve.html" >Nosso blog</a>
                 <a href="embreve/embreve.html" >Contato</a>
+           
             </div>
+        </div>
         </div>
         </header>
         <div class="imagem">
@@ -37,42 +42,42 @@
             </div>
         </div>
         
-        <p class="titulo">Por que ajudar a Casinha ?</p><br>
+        <p class='mt-5'id="titulo">Por que ajudar a Casinha ?</p><br>
         
         <div class="svg-todos">
             <div class="svg">
-                <img class='circulo' src="img/group1.svg" style="width: 22%;"></img>
-               <p > Você ajuda dezenas de vidas </br><strong>LGBTI+</strong> em situação de</br> vulnerabilidade social.</p>
+                <img class='circulo' src="../img/group1.svg" class="img-fluid"  style="width: 22%;"></img>
+               <p class="texto-svg"> Você ajuda dezenas de vidas <strong>LGBTI+</br></strong> em situação de vulnerabilidade social.</p>
             </div>
             <div class="svg">
-                <img class='circulo' src="img/group2.svg" style="width: 25%;"></img>
-                <p >Você mantém <strong>nossos</br> diversos projetos</strong> de</br> inclusão social.</p>
+                <img class='circulo' src="../img/group2.svg" class="img-fluid"  style="width: 25%;"></img>
+                <p class="texto-svg">Você mantém <strong>nossos diversos</br> projetos</strong> de inclusão social.</p>
             </div>
             <div class="svg">
-                <img class='circulo' src="img/group2.1.svg" style="width: 25%;"></img>
-                <p >Você colabora para uma</br> sociedade mais <strong>justa e</br> igualitária.</strong></p>
+                <img class='circulo' src="../img/group2.1.svg" class="img-fluid"  style="width: 25%;"></img>
+                <p class="texto-svg">Você colabora para uma</br> sociedade mais <strong>justa e igualitária.</strong></p>
             </div>
         </div>
         </br>
 
-        <p class="titulo">Como você pode contribuir ?</p><br>
+        <p class='mt-5'id="titulo">Como você pode contribuir ?</p><br>
         
         <div class="svg-todos">
             <div class="svg">
-                <img class='icon-contr'src="img/money.png"></img>
+                <img class='icon-contr' class="img-fluid" src="../img/money.png"></img>
                 <p class="texto-svg">Fazendo uma <strong>doação em</br> dinheiro...</strong></p>
             </div>
             <div class="svg">
-                <img class='icon-contr' src="img/hand.png" ></img>
+                <img class='icon-contr' class="img-fluid"  src="../img/hand.png" ></img>
                 <p class="texto-svg"><strong>Doando produtos</strong> de uso pessoal</br>(roupas, alimentos e outros)...</p>
             </div>
             <div class="svg">
-                <img class='icon-contr' src="img/face.png"></img>
+                <img class='icon-contr' class="img-fluid"  src="../img/face.png"></img>
                <p class="texto-svg">Ou sendo uma</br><strong>pessoa voluntária</strong><3</p>
             </div>
         </div>
 
-        <p class="outras_info">Saiba mais em <a href="#" class="link-casinha">como ajudar a Casinha!</a></p>
+        <p class='mt-5' id="outras_info">Saiba mais em <a href="#" class="link-casinha">como ajudar a Casinha!</a></p>
 
        
         <div class="engloba-nossa-historia">
@@ -102,66 +107,109 @@
             </div>
         </div> 
         <div class="saber-mais">
-            <p>Nascemos em 2017, no Rio de Janeiro, com o propósito de <strong>combater a violação de direitos</strong> contra<br>
-            a população LGBTI+. <a href="#" class="link-casinha">Vem saber</a> mais sobre a história da Casinha. :)</p>
+            <p>Nascemos em 2017, no Rio de Janeiro, com o propósito de <strong>combater a violação de direitos</strong> contra
+            a população<br> LGBTI+. <a href="#" class="link-casinha">Vem saber mais sobre a história da Casinha.</a>:)</p>
         </div>
 
         <div class="titulo-atuacao">
             <p>Nossas áreas de atuação</p>
         </div>
 
-        <div class="area-atuacao">
-            <img class="areas-pessoas" src="img/pessoas.png"></img>
+<div class="container-fluid" id="container-img">
+  <div class="row" id="row-img">
+    <div class="col">
+            <img class="img-fluid" id='area-atuacao'src="img/pessoas.png"></img>
         </div>
 
-        <div class="todos-botoes">
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
-                    <img src="img/servico-social.svg"></img>
-                    <p>Serviço Social</p>
+        <div class="col" id="todos-botoes">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            
+                                <img id="img-card" class="img-fluid" src="img/servico-social.svg"></img>
+                                <p>Serviço Social</p>
+                          
+                        </div>
+                    </div>
                 </div>
-            </button>
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
-                    <img src="img/empregabilidade.svg"></img>
-                    <p>Empregabilidade</p>
+
+            <div class="col-sm">
+                <div class="card">
+                        <div class="card-body">
+                            
+                            <img src="img/empregabilidade.svg"></img>
+                            <p>Empregabilidade</p>
+                           
+                         </div>
+                    </div>
                 </div>
-            </button>
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
-                    <img src="img/clinica-social.svg"></img>
-                    <p>Clinica Social</p>
+
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        
+                            <img src="img/clinica-social.svg"></img>
+                            <p>Clínica Social</p>
+                        
+                        </div>
+                    </div>
                 </div>
-            </button>
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
-                    <img src="img/educacao.svg"></img>
+                
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                    <div class="card-body">
+                
+                    <img src="img/educacao.svg" class="foto-pessoas"></img>
                     <p>Educação</p>
+                
                 </div>
-            </button>
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
+                    </div>
+                </div>
+            
+                <div class="col-sm">
+                    <div class="card">
+                    <div class="card-body">
+                   
                     <img src="img/empregabilidade.svg"></img>
-                    <p>Projetos<br>coorporativos</p><br>
+                    <p>Projetos coorporativos</p>
+                    
+                 </div>
+                    </div>
                 </div>
-            </button>
-            <button class="botao-atuacao">
-                <div class="botao-atuacao-info">
+            
+                <div class="col-sm">
+                    <div class="card">
+                    <div class="card-body">
+                    
                     <img src="img/clinica-social.svg"></img>
-                    <p>Projetos<br>culturais</p><br>
+                    <p>Projetos culturais</p>
+                    
                 </div>
-            </button>
-            <div class="info-atuacao">
-                <p>Veja todas as <a class="link-casinha"> áreas de atuação</a> da Casinha</p>
-            </div>
+                </div>
+                    </div>
+                </div>
         </div>
+        </div>
+        </div>
+  </div>
+  <div class="row" id="texto-atuacao">
+      <div class="col-sm"></div>
+      <div class="col-sm">
+  <div class="info-atuacao">
+                <p class="areas"><a class="link-casinha">Veja todas as  áreas de atuação da Casinha</p></a>
+            </div>
+            </div>
+            </div>
+  </div>
     
-        <p id='titulo-parceiros' class="titulo">Quem já trabalhou com a gente</p>
+        <p class='mt-5' id="titulo">Quem já trabalhou com a gente</p>
         <div class="div-parceiros">
             <img class='parceiros' src='img/marcas parceiras.svg'>
         </div>
         
-        <p id='titulo-equipe' class="titulo">Nossa equipe</p>
+        <p class='mt-5' id="titulo">Nossa equipe</p>
 
         <div class="div-equipe">
             <div class='natalia-maior'>

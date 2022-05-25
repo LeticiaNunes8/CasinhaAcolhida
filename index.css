@@ -8,14 +8,16 @@
 body {
   font-family: var(--primary-font);
   margin: 0px;
-  height: 537px;
 }
 
 /* Header principal */
-.header {
+
+#header {
   display: flex;
-  justify-content: row;
+  justify-content: space-between;
+  margin: 0px;
   width: 100%;
+  vertical-align: middle;
   height: 207px;
   background: linear-gradient(
     180deg,
@@ -26,26 +28,29 @@ body {
 
 /* Logo roxa do header */
 .icon-logo {
-  width: 40%;
-  height: 207px;
+  height: fit-content;
+  width: 100%;
   padding-top: 60px;
   margin-left: 76px;
 }
 
 /*Links da Header */
-.link {
-  width: 60%;
+
+#col-links {
   display: flex;
-  margin-top: 80px;
-  justify-content: space-evenly;
+  vertical-align: middle;
+  justify-content: space-between;
   font-size: 20px;
-  padding-right: 50px;
+  height: fit-content;
+  padding-top: 75px;
+  padding-right: 70px;
 }
 
 a {
   font-family: var(--primary-font);
   text-decoration: none;
   color: black;
+  margin-right: 30px;
 }
 
 a:hover {
@@ -62,9 +67,9 @@ a:hover {
 
 /*Imagem principal*/
 .imagem {
-  background-image: url("img/banner.png");
+  background-image: url("img/Banner.png");
   width: 100%;
-  height: 827px;
+  height: 400px;
   background-position: center;
   background-size: cover;
 }
@@ -100,13 +105,13 @@ a:hover {
 .infos {
   margin-left: 60px;
   position: absolute;
-  margin-top: 280px;
+  margin-top: 150px;
 }
 
-/*div por que ajudar casinha e como contribuir*/
-.titulo {
+/*Porque ajudar e como contribuir*/
+#titulo {
   height: 20px;
-  padding-left: 76px;
+  margin-left: 76px;
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
@@ -131,26 +136,31 @@ a:hover {
 
 .icon-contr,
 .circulo {
-  max-width: 80px;
+  max-width: 30%;
   max-height: 80px;
   width: auto;
   height: auto;
   padding-right: 15px;
 }
 
-/*Nossa Historia*/
+.texto-svg {
+  padding-top: 15px;
+}
 
-.outras_info {
-  width: 800px;
-  height: 30px;
+/*saiba mais*/
+
+#outras_info {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
   margin-left: 76px;
-  margin-top: 40px;
 }
 
 .link-casinha:hover,
 .link-casinha {
   text-decoration: underline;
-  color: #ed75b2;
+  color: var(--primary-color);
 }
 
 /*Nossa historia*/
@@ -207,23 +217,24 @@ a:hover {
   font-size: 20px;
   padding-left: 20px;
   font-weight: lighter;
-  margin-top: -40px;
+  margin-top: 40px;
 }
 
 .saber-mais {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: right;
   position: relative;
+  padding-right: 80px;
   bottom: 150px;
-  font-size: 22px;
-  text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 /*áreas de atuação*/
 
 .titulo-atuacao {
-  height: 130px;
   margin-left: 76px;
   color: var(--primary-color);
   font-size: 36px;
@@ -231,55 +242,74 @@ a:hover {
   text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
 }
 
-.area-atuacao {
-  width: 100%;
-  height: 480px;
-  background: #f4f4f4;
+#area-atuacao {
+  width: 658px;
+  height: 529px;
+  padding-top: 30px;
 }
 
-.areas-pessoas {
+.row {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  padding: 0;
+  margin-top: 5%;
+}
+
+#container-img {
+  background-color: #f4f4f4;
+  height: 450px;
+}
+
+.card-body {
+  align-items: center;
+  vertical-align: middle;
+  padding-top: 20%;
 }
 
 .todos-botoes {
-  position: relative;
-  bottom: 480px;
-  left: 800px;
-  width: 40%;
-  height: 490px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
-.botao-atuacao {
-  width: 186px;
-  height: 186px;
-  background: white;
+
+.card {
   color: var(--primary-color);
   font-weight: bold;
+  width: 168px;
+  height: 168px;
   border-radius: 30px;
-  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  align-items: center;
+  vertical-align: middle;
   text-align: center;
-  border: none;
+  border-color: transparent;
   font-size: 21px;
 }
 .botao-atuacao:hover {
   cursor: pointer;
 }
-.botao-atuacao-info {
-  position: relative;
-  top: 30px;
+
+#texto-atuacao {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-items: right;
 }
 
 .info-atuacao {
-  width: 800px;
-  height: 0px;
   font-size: 24px;
   font-weight: 300px;
-  position: relative;
-  top: 30px;
-  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  margin-top: 25px;
+}
+
+.areas {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: var(--primary-color);
 }
 /*Parceiros*/
 .div-parceiros {
@@ -287,27 +317,16 @@ a:hover {
   justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: 76px;
-  position: relative;
-  bottom: 300px;
 }
 
 #titulo-parceiros {
-  position: relative;
-  bottom: 300px;
+  margin-top: 10%;
 }
 
 /*Equipe*/
 .div-equipe {
   margin-top: 10%;
   width: 100%;
-  position: relative;
-  bottom: 300px;
-}
-
-#titulo-equipe {
-  position: relative;
-  bottom: 300px;
 }
 
 /*Natalia e Doug - Div maior*/
@@ -315,7 +334,6 @@ a:hover {
 .natalia-maior,
 .doug-maior {
   width: 100%;
-  position: relative;
   display: flex;
 }
 
@@ -334,7 +352,6 @@ a:hover {
   height: 258.04px;
   background-position: center;
   background-size: cover;
-  position: relative;
   margin-left: 76px;
 }
 
@@ -369,8 +386,6 @@ a:hover {
   font-weight: 300;
   font-size: 24px;
   line-height: 28px;
-  position: relative;
-  bottom: 300px;
 }
 
 span {
@@ -384,8 +399,6 @@ footer {
   height: 751px;
   width: 100%;
   vertical-align: center;
-  position: relative;
-  bottom: 300px;
 }
 
 .footer {
@@ -483,7 +496,7 @@ textarea {
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
   border-radius: 12px;
   height: 32px;
-  width: 288px;
+  width: 265px;
   font-weight: 300;
   font-size: 14px;
 }
