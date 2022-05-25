@@ -138,7 +138,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   vertical-align: center;
-  width: 350px;
+  width: 370px;
   height: 100px;
 }
 
@@ -427,6 +427,7 @@ footer {
 .icon-footer {
   padding-top: 60px;
   margin-left: 76px;
+  padding-bottom: 30px;
 }
 
 /*Títulos do meio e canto direito*/
@@ -436,7 +437,7 @@ footer {
   color: var(--primary-color);
   font-size: 26px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 60px;
 }
 
@@ -493,6 +494,7 @@ textarea {
   border-color: transparent;
   font-family: var(--primary-font);
   padding-left: 20px;
+  padding-top: 10px;
 }
 
 .enviar-botao {
