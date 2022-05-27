@@ -56,7 +56,7 @@ body {
   justify-content: space-between;
   font-size: 20px;
   height: fit-content;
-  padding-right: 70px;
+  padding-right: 40px;
   width: 800px;
 }
 
@@ -169,8 +169,8 @@ a:hover {
 #outras_info {
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 24px;
+  line-height: 28px;
   margin-left: 76px;
   margin-bottom: 10%;
 }
@@ -195,6 +195,7 @@ a:hover {
   max-width: 100%;
   width: 100%;
   margin: 0px auto;
+  height: 364px;
   flex-direction: row;
   margin-top: 5%;
   background-color: #f4f4f4;
@@ -232,6 +233,10 @@ a:hover {
   max-width: 100%;
 }
 
+#img-card {
+  padding-bottom: 5px;
+}
+
 .quantidade {
   font-weight: bold;
   color: #007940;
@@ -254,9 +259,9 @@ a:hover {
   position: relative;
   width: 1000px;
   font-weight: 300;
-  bottom: 50px;
-  font-size: 20px;
-  line-height: 23px;
+  bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
   max-width: 100%;
 }
 
@@ -267,7 +272,6 @@ a:hover {
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
-  text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
   max-width: 100%;
 }
 
@@ -289,6 +293,7 @@ a:hover {
   background-color: #f4f4f4;
   height: 480px;
   max-width: 100%;
+  margin-top: 70px;
 }
 
 #card-body-areas {
@@ -340,18 +345,39 @@ a:hover {
 .info-atuacao {
   font-size: 24px;
   font-weight: 300px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .areas {
-  font-family: "Roboto";
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 24px;
+  line-height: 28px;
   text-decoration-line: underline;
   color: var(--primary-color);
 }
+
+.modal-body {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #535353;
+  margin-left: 35px;
+}
+.modal-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #702283;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
 /*Parceiros*/
 .div-parceiros {
   display: flex;
@@ -364,69 +390,87 @@ a:hover {
   margin-top: 10%;
 }
 
-/*Equipe*/
-.div-equipe {
-  margin-top: 10%;
-  width: 100%;
-}
-
-/*Natalia e Doug - Div maior*/
-
-.natalia-maior,
-.doug-maior {
-  width: 100%;
-  display: flex;
-}
-
-.natalia-maior {
-  padding-bottom: 10%;
-}
-
-.doug-maior {
-  padding-bottom: 5%;
-}
-
-/*Fotos*/
-.natalia,
-.doug {
+/*Nossa equipe*/
+#foto-nat,
+#foto-doug {
   width: 270px;
   height: 258.04px;
-  background-position: center;
-  background-size: cover;
+  margin-left: 26px;
+  position: relative;
+  bottom: 50px;
+}
+
+#linha-nat,
+#linha-doug {
+  background-color: #f4f4f4;
+  height: 169px;
+  max-width: 100%;
+  margin: 0px;
+}
+
+#tudo-nat,
+#tudo-doug {
+  max-width: 100%;
+}
+
+#tudo-doug {
+  padding-top: 100px;
+  max-width: 100%;
+}
+
+#titulo-nossa {
+  padding-bottom: 150px;
+  height: 20px;
   margin-left: 76px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
 }
 
-.natalia {
-  background-image: url("img/foto-nat.jpeg");
-}
-
-.doug {
-  background-image: url("img/foto-doug.jpg");
-}
-
-/* Textos Natalia e Doug*/
-.infos-natalia,
-.infos-doug {
-  padding-left: 40px;
-  width: 815px;
-  height: 120px;
+.info-doug,
+.info-nat {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
   text-align: justify;
+}
+
+#infos {
+  position: relative;
+  right: 50px;
+  bottom: 120px;
+  background: #ffffff;
+  border: 0.5px solid #dedbdb;
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+  height: 269px;
 }
 
 .natalia-nome,
 .doug-nome {
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
+  position: relative;
   font-size: 24px;
-  line-height: 0px;
+  line-height: 5px;
+}
+
+.texto {
+  position: relative;
+  top: 50px;
 }
 
 /*Conheça equipe*/
 .conheca {
   margin-left: 76px;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  color: var(--primary-color);
+  padding-top: 50px;
 }
 
 span {
