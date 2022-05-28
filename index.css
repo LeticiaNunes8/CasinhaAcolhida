@@ -1,0 +1,613 @@
+/* Variáveis */
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-color: #702283;
+}
+
+/* Informações do Body */
+body {
+  font-family: var(--primary-font);
+  margin: 0px;
+}
+
+/* Header principal */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  width: 100%;
+  max-width: 100%;
+  height: 207px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 247, 231) 12%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.container-fluid {
+  max-width: 100%;
+  width: 100%;
+  padding: 0%;
+}
+
+/* Logo roxa do header */
+
+#logo {
+  margin: 0px;
+  height: 70px;
+  width: 70px;
+}
+
+#coluna-icone {
+  margin: 0px;
+  padding-left: 76px;
+  border: 0px;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/*Links da Header */
+
+#col-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: fit-content;
+  padding-right: 40px;
+  width: 800px;
+}
+
+a {
+  font-family: var(--primary-font);
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Link ativado da header */
+.inicio {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/*Imagem principal*/
+.imagem {
+  background-image: url("img/Banner.png");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Botão dentro da imagem*/
+.botao-doar {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: 3px solid var(--primary-color);
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  height: 62px;
+  width: 242px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.botao:hover {
+  cursor: pointer !important;
+}
+
+/*Div e frase dentro da imagem*/
+.doe {
+  color: white;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.infos {
+  margin-left: 60px;
+  position: absolute;
+  margin-top: 150px;
+}
+
+/*Porque ajudar e como contribuir*/
+#titulo {
+  height: 20px;
+  margin-left: 76px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.svg-todos {
+  height: 100px;
+  margin-left: 76px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.svg {
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  width: 370px;
+  height: 100px;
+  max-width: 100%;
+}
+
+.icon-contr,
+.circulo {
+  max-width: 30%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  padding-right: 15px;
+}
+
+.texto-svg {
+  padding-top: 15px;
+  max-width: 100%;
+  margin: 0px;
+}
+
+/*saiba mais*/
+
+#outras_info {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 76px;
+  margin-bottom: 10%;
+}
+
+.link-casinha:hover,
+.link-casinha {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+/*Nossa historia*/
+
+#tudo-nossahist {
+  height: 364px;
+  max-width: 100%;
+  margin: 0px auto;
+  display: inline-block;
+  flex-direction: row;
+}
+
+#linha-nossa {
+  max-width: 100%;
+  width: 100%;
+  margin: 0px auto;
+  height: 364px;
+  flex-direction: row;
+  margin-top: 5%;
+  background-color: #f4f4f4;
+}
+
+#titulo-nossahist {
+  display: inline-block;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.historia {
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 79px;
+  max-width: 100%;
+}
+
+#card-hist {
+  width: 232.72px;
+  height: 232.72px;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: white;
+  margin-right: 15px;
+}
+
+#cards-todos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 60px;
+  max-width: 100%;
+}
+
+#img-card {
+  padding-bottom: 5px;
+}
+
+.quantidade {
+  font-weight: bold;
+  color: #007940;
+  font-size: 64px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#saber-mais {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  max-width: 100%;
+}
+
+#textosaber {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  width: 1000px;
+  font-weight: 300;
+  bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  max-width: 100%;
+}
+
+/*áreas de atuação*/
+
+#titulo-atuacao {
+  margin-left: 76px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  max-width: 100%;
+}
+
+#area-atuacao {
+  width: 658px;
+  height: 529px;
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  max-width: 100%;
+}
+
+#container-img {
+  background-color: #f4f4f4;
+  height: 480px;
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+#card-body-areas {
+  align-items: center;
+  vertical-align: middle;
+  padding-top: 20%;
+}
+
+#todos-botoes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+#card-areas,
+#card-areas-emprego {
+  color: var(--primary-color);
+  font-weight: bold;
+  width: 168px;
+  height: 168px;
+  border-radius: 30px;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  align-items: center;
+  text-align: center;
+  border-color: transparent;
+  font-size: 21px;
+}
+
+#espaco {
+  padding-bottom: 70px;
+}
+
+#card-areas-emprego {
+  font-size: 19px;
+}
+
+.botao-atuacao:hover {
+  cursor: pointer;
+}
+
+#texto-atuacao {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-items: right;
+}
+
+.info-atuacao {
+  font-size: 24px;
+  font-weight: 300px;
+  margin-top: 10px;
+}
+
+.areas {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: var(--primary-color);
+}
+
+.modal-body {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #535353;
+  margin-left: 35px;
+}
+.modal-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #702283;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/*Parceiros*/
+.div-parceiros {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#titulo-parceiros {
+  margin-top: 10%;
+}
+
+/*Nossa equipe*/
+#foto-nat,
+#foto-doug {
+  width: 270px;
+  height: 258.04px;
+  margin-left: 26px;
+  position: relative;
+  bottom: 50px;
+}
+
+#linha-nat,
+#linha-doug {
+  background-color: #f4f4f4;
+  height: 169px;
+  max-width: 100%;
+  margin: 0px;
+}
+
+#tudo-nat,
+#tudo-doug {
+  max-width: 100%;
+}
+
+#tudo-doug {
+  padding-top: 100px;
+  max-width: 100%;
+}
+
+#titulo-nossa {
+  padding-bottom: 150px;
+  height: 20px;
+  margin-left: 76px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.info-doug,
+.info-nat {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+#infos {
+  position: relative;
+  right: 50px;
+  bottom: 120px;
+  background: #ffffff;
+  border: 0.5px solid #dedbdb;
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+  height: 269px;
+}
+
+.natalia-nome,
+.doug-nome {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  font-size: 24px;
+  line-height: 5px;
+}
+
+.texto {
+  position: relative;
+  top: 50px;
+}
+
+/*Conheça equipe*/
+.conheca {
+  margin-left: 76px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--primary-color);
+  padding-top: 50px;
+}
+
+span {
+  color: red;
+}
+
+/*footer*/
+
+footer {
+  background: linear-gradient(180deg, rgb(255, 254, 253) 30%, #eec5d4 70%);
+  height: 751px;
+  width: 100%;
+  vertical-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  vertical-align: center;
+}
+
+/*Links e ícone da página no footer - canto esquerdo*/
+.os-links {
+  margin-left: 76px;
+  font-family: var(--primary-font);
+  line-height: 10px;
+  padding-top: 15px;
+}
+
+.icon-footer {
+  padding-top: 30px;
+  margin-left: 76px;
+  padding-bottom: 30px;
+}
+
+/*Títulos do meio e canto direito*/
+.fale-title,
+.contatos-title {
+  height: 20px;
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+/*Texto menor das 3 sessoes*/
+.os-links,
+.contatos,
+.fale-conosco {
+  width: 350px;
+  height: 393px;
+  line-height: 10px;
+  font-weight: lighter;
+}
+
+/*ícones*/
+#icone-lk {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-fb {
+  width: 24px;
+  height: 24px;
+}
+
+#icone-inst {
+  width: 26px;
+  height: 26px;
+}
+
+.icons {
+  width: 130px;
+  display: inline-flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+/*Formulário*/
+input {
+  height: 32px;
+  width: 262px;
+  background: #ffffff;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  border-color: transparent;
+  font-family: var(--primary-font);
+  padding-left: 20px;
+}
+
+textarea {
+  width: 262px;
+  background: #ffffff;
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  border-color: transparent;
+  font-family: var(--primary-font);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.enviar-botao {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 20px;
+  border: 3px solid var(--primary-color);
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  height: 32px;
+  width: 265px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.enviar-botao:hover {
+  cursor: pointer;
+}
+
+/*Devs*/
+.devs {
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  font-family: var(--primary-font);
+  display: flex;
+  justify-content: center;
+}
+
+/*Copyright*/
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
