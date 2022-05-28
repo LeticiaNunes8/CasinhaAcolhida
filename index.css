@@ -502,7 +502,7 @@ footer {
 }
 
 .icon-footer {
-  padding-top: 60px;
+  padding-top: 30px;
   margin-left: 76px;
   padding-bottom: 30px;
 }
@@ -590,6 +590,19 @@ textarea {
 
 .enviar-botao:hover {
   cursor: pointer;
+}
+
+/*Devs*/
+.devs {
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  font-family: var(--primary-font);
+  display: flex;
+  justify-content: center;
 }
 
 /*Copyright*/
