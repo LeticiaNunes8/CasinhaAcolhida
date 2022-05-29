@@ -73,12 +73,6 @@ a:hover {
 
 /* Link ativado da header */
 
-.em-breve {
-  font-family: var(--primary-font);
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
 /*Imagem principal*/
 .imagem {
   background-image: url("../img/banner.png");
@@ -125,7 +119,7 @@ a:hover {
   font-size: 20px;
   font-family: var(--primary-font);
   text-align: center;
-  line-height: 15px;
+  line-height: 10px;
 }
 
 #doar {
@@ -140,9 +134,9 @@ a:hover {
   justify-content: center;
   font-family: var(--primary-font);
   color: var(--primary-color);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 15px;
+  line-height: 5px;
 }
 
 #icone {
