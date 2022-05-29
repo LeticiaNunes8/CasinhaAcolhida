@@ -133,8 +133,8 @@ a:hover {
 .svg-todos {
   height: 100px;
   margin-top: 50px;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
   flex-direction: row;
   vertical-align: center;
@@ -142,28 +142,13 @@ a:hover {
   max-width: 100%;
 }
 
-.svg,
-.svg-rosa,
-.svg-amarelo,
-.svg-aff {
+.svg {
   display: flex;
   flex-direction: row;
   vertical-align: center;
   width: 370px;
   height: 100px;
   max-width: 100%;
-}
-
-.svg-amarelo {
-  margin-left: 80px;
-}
-
-.svg-aff {
-  margin-left: 30px;
-}
-
-.svg-rosa {
-  justify-content: right;
 }
 
 .icon-contr,
@@ -189,7 +174,7 @@ a:hover {
   font-size: 20px;
   line-height: 28px;
   margin-left: 150px;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .link-casinha:hover,
@@ -222,19 +207,19 @@ a:hover {
   display: inline-block;
   margin-top: 20px;
   max-width: 100%;
+  padding-left: 150px;
 }
 
 .historia {
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
-  margin-left: 79px;
   max-width: 100%;
 }
 
 #card-hist {
-  width: 232.72px;
-  height: 232.72px;
+  width: 232px;
+  height: 232px;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
   border-radius: 30px;
   border-color: transparent;
@@ -277,15 +262,15 @@ a:hover {
   width: 1000px;
   font-weight: 300;
   bottom: 20px;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 23px;
   max-width: 100%;
 }
 
 /*áreas de atuação*/
 
 #titulo-atuacao {
-  margin-left: 76px;
+  padding-left: 150px;
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
@@ -304,6 +289,7 @@ a:hover {
   justify-content: center;
   padding: 0;
   max-width: 100%;
+  padding-right: 10px;
 }
 
 #container-img {
@@ -369,8 +355,8 @@ a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 23px;
   text-decoration-line: underline;
   color: var(--primary-color);
 }
@@ -383,6 +369,7 @@ a:hover {
   line-height: 23px;
   color: #535353;
   margin-left: 35px;
+  margin-bottom: 50px;
 }
 .modal-title {
   font-family: var(--primary-font);
@@ -401,6 +388,8 @@ a:hover {
   justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 #titulo-parceiros {
@@ -408,13 +397,22 @@ a:hover {
 }
 
 /*Nossa equipe*/
+
+#titulo-nossa {
+  padding-bottom: 150px;
+  height: 20px;
+  padding-left: 150px;
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+}
+
 #foto-nat,
 #foto-doug {
   width: 270px;
   height: 258.04px;
-  margin-left: 26px;
   position: relative;
-  bottom: 50px;
+  bottom: 110px;
 }
 
 #linha-nat,
@@ -423,6 +421,8 @@ a:hover {
   height: 169px;
   max-width: 100%;
   margin: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 #tudo-nat,
@@ -431,17 +431,8 @@ a:hover {
 }
 
 #tudo-doug {
-  padding-top: 100px;
+  padding-top: 150px;
   max-width: 100%;
-}
-
-#titulo-nossa {
-  padding-bottom: 150px;
-  height: 20px;
-  margin-left: 76px;
-  color: var(--primary-color);
-  font-size: 36px;
-  font-weight: 700;
 }
 
 .info-doug,
@@ -449,8 +440,8 @@ a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 19px;
   text-align: justify;
 }
 
@@ -462,7 +453,8 @@ a:hover {
   border: 0.5px solid #dedbdb;
   backdrop-filter: blur(4px);
   border-radius: 24px;
-  height: 269px;
+  height: 226px;
+  width: 698px;
 }
 
 .natalia-nome,
@@ -472,26 +464,22 @@ a:hover {
   font-weight: 400;
   position: relative;
   font-size: 24px;
-  line-height: 5px;
+  line-height: 28px;
 }
 
 .texto {
   position: relative;
-  top: 50px;
+  top: 20px;
 }
 
 /*Conheça equipe*/
 .conheca {
-  margin-left: 76px;
+  padding-top: 10px;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: underline;
   color: var(--primary-color);
-  padding-top: 50px;
-}
-
-span {
-  color: red;
 }
 
 /*footer*/
@@ -558,12 +546,12 @@ footer {
 }
 
 #icone-inst {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
 }
 
 .icons {
-  width: 130px;
+  width: 110px;
   display: inline-flex;
   justify-content: space-between;
   vertical-align: middle;

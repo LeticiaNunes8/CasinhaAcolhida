@@ -230,12 +230,12 @@ footer {
 }
 
 #icone-inst {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
 }
 
 .icons {
-  width: 130px;
+  width: 110px;
   display: inline-flex;
   justify-content: space-between;
   vertical-align: middle;
