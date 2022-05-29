@@ -7,7 +7,7 @@
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
-  margin: 0px;
+  margin: 0px auto;
 }
 
 /* Header principal */
@@ -37,13 +37,13 @@ body {
 
 #logo {
   margin: 0px;
-  height: 55px;
+  height: 65px;
   width: 55px;
 }
 
 #coluna-icone {
   margin: 0px;
-  padding-left: 76px;
+  padding-left: 150px;
   border: 0px;
   font-size: 100%;
   font-weight: normal;
@@ -56,8 +56,8 @@ body {
   justify-content: space-between;
   font-size: 20px;
   height: fit-content;
-  padding-right: 80px;
-  width: 800px;
+  padding-right: 150px;
+  width: 1000px;
 }
 
 a {
