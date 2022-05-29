@@ -173,6 +173,8 @@ footer {
   height: 751px;
   width: 100%;
   vertical-align: center;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .footer {
@@ -184,7 +186,6 @@ footer {
 
 /*Links e ícone da página no footer - canto esquerdo*/
 .os-links {
-  margin-left: 76px;
   font-family: var(--primary-font);
   line-height: 10px;
   padding-top: 15px;
@@ -192,7 +193,7 @@ footer {
 
 .icon-footer {
   padding-top: 30px;
-  margin-left: 76px;
+
   padding-bottom: 30px;
 }
 
@@ -241,6 +242,12 @@ footer {
 }
 
 /*Formulário*/
+
+form {
+  display: row;
+  justify-content: right;
+  padding-left: 80px;
+}
 input {
   height: 32px;
   width: 262px;
