@@ -83,34 +83,32 @@ a:hover {
   height: 400px;
 }
 
-/*Div e frase dentro da imagem*/
-.doe {
-  color: white;
-  font-family: var(--primary-font);
-  font-weight: 400;
-  font-size: 48px;
-}
-
 /*CONTEUDO */
 #principal {
   position: relative;
   width: 50%;
   top: 60px;
 }
+
+/*frase roxa maior */
 #titulo {
   height: 20px;
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
   display: flex;
+  line-height: 42px;
   justify-content: center;
 }
 
-#heart {
+/*arco iro */
+#arco {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
 
+/*texto normal */
 #texto {
   width: fit-content;
 }
@@ -121,50 +119,30 @@ a:hover {
   font-family: var(--primary-font);
   text-align: center;
   line-height: 10px;
+  font-style: normal;
+  font-weight: 300;
 }
 
-#doar {
-  text-decoration: underline;
+/*botao  */
+.botao-index {
   font-family: var(--primary-font);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: 3px solid var(--primary-color);
+  box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
+  width: 291px;
+  height: 62px;
+  font-weight: 500;
   font-size: 20px;
-  font-weight: bold;
+  line-height: 23px;
 }
-#texto2 {
+
+#botao,
+.botao {
   display: flex;
   justify-content: center;
-  font-family: var(--primary-font);
-  color: var(--primary-color);
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 5px;
-}
-
-#icone {
-  width: 130px;
-  display: inline-flex;
-  justify-content: center;
-  vertical-align: middle;
-  padding-left: 50px;
-}
-
-#icone a {
-  padding-right: 30px;
-}
-
-#inst {
-  width: 50px;
-  height: 50px;
-}
-
-#lk {
-  width: 50px;
-  height: 50px;
-}
-
-#fb {
-  width: 47px;
-  height: 47px;
 }
 
 /*footer*/
@@ -185,7 +163,7 @@ footer {
   vertical-align: center;
 }
 
-/*Links e Ã­cone da pÃ¡gina no footer - canto esquerdo*/
+/*Links e ícone da página no footer - canto esquerdo*/
 .os-links {
   font-family: var(--primary-font);
   line-height: 10px;
@@ -194,11 +172,10 @@ footer {
 
 .icon-footer {
   padding-top: 30px;
-
   padding-bottom: 30px;
 }
 
-/*TÃ­tulos do meio e canto direito*/
+/*Títulos do meio e canto direito*/
 .fale-title,
 .contatos-title {
   height: 20px;
@@ -217,7 +194,6 @@ footer {
   line-height: 10px;
   font-weight: lighter;
 }
-
 .fale-conosco {
   width: 265px;
   height: 393px;
@@ -225,7 +201,7 @@ footer {
   font-weight: lighter;
 }
 
-/*Ã­cones*/
+/*ícones*/
 #icone-lk {
   width: 24px;
   height: 24px;
@@ -248,13 +224,12 @@ footer {
   vertical-align: middle;
 }
 
-/*FormulÃ¡rio*/
+/*Formulário*/
 
 form {
   display: row;
   justify-content: right;
 }
-
 input {
   height: 32px;
   width: 262px;
