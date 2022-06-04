@@ -9,7 +9,8 @@ body {
   font-family: var(--primary-font);
   margin: 0px;
   max-width: 100%;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 /* Header principal */
@@ -120,7 +121,7 @@ a:hover {
 .infos {
   margin-left: 150px;
   position: absolute;
-  margin-top: 140px;
+  margin-top: 145px;
 }
 
 /*Porque ajudar e como contribuir*/
@@ -136,7 +137,7 @@ a:hover {
   height: 100px;
   margin-top: 50px;
   padding-left: 150px;
-  padding-right: 150px;
+  padding-right: 50px;
   display: flex;
   flex-direction: row;
   vertical-align: center;
@@ -153,20 +154,27 @@ a:hover {
   max-width: 100%;
 }
 
-.icon-contr,
 .circulo {
-  max-width: 30%;
+  max-width: 60px;
+  max-height: 50px;
+  width: 50px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+.icon-contr {
+  max-width: 100px;
   max-height: 50px;
   width: auto;
-  height: auto;
+  height: 50px;
   padding-right: 15px;
 }
 
 .texto-svg {
-  padding-top: 15px;
+  padding-top: 5px;
   max-width: 100%;
   margin: 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*saiba mais*/
@@ -262,6 +270,7 @@ a:hover {
 
 #textosaber {
   display: flex;
+  left: 3px;
   justify-content: right;
   position: relative;
   width: 1000px;
@@ -351,7 +360,7 @@ a:hover {
 }
 
 .info-atuacao {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300px;
   margin-top: 10px;
 }
@@ -390,11 +399,14 @@ a:hover {
 /*Parceiros*/
 .div-parceiros {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   margin-top: 6%;
   margin-bottom: 6%;
   padding-left: 150px;
   padding-right: 150px;
+  max-width: 80%;
+  align-items: center;
 }
 
 #titulo-parceiros {
@@ -423,11 +435,11 @@ a:hover {
 #linha-nat,
 #linha-doug {
   background-color: #f4f4f4;
-  height: 169px;
+  height: 189px;
   max-width: 100%;
   margin: 0px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 130px;
+  padding-right: 100px;
 }
 
 #tudo-nat,
@@ -452,14 +464,14 @@ a:hover {
 
 #infos {
   position: relative;
-  right: 50px;
+  right: 80px;
   bottom: 120px;
   background: #ffffff;
   border: 0.5px solid #dedbdb;
   backdrop-filter: blur(4px);
   border-radius: 24px;
-  height: 226px;
-  width: 698px;
+  height: 250px;
+  width: 730px;
 }
 
 .natalia-nome,
@@ -474,12 +486,17 @@ a:hover {
 
 .texto {
   position: relative;
-  top: 20px;
+  top: 35px;
+}
+
+#icone-em {
+  width: 30px;
+  height: 30px;
 }
 
 /*Conheça equipe*/
 .conheca {
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;

@@ -167,11 +167,11 @@ footer {
 .os-links {
   font-family: var(--primary-font);
   line-height: 10px;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .icon-footer {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -194,6 +194,7 @@ footer {
   line-height: 10px;
   font-weight: lighter;
 }
+
 .fale-conosco {
   width: 265px;
   height: 393px;
@@ -208,8 +209,8 @@ footer {
 }
 
 #icone-fb {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
 }
 
 #icone-inst {
@@ -275,7 +276,7 @@ textarea {
   color: var(--primary-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration-line: underline;
   font-family: var(--primary-font);

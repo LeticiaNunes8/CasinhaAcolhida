@@ -185,20 +185,19 @@ footer {
   vertical-align: center;
 }
 
-/*Links e Ã­cone da pÃ¡gina no footer - canto esquerdo*/
+/*Links e ícone da página no footer - canto esquerdo*/
 .os-links {
   font-family: var(--primary-font);
   line-height: 10px;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .icon-footer {
-  padding-top: 30px;
-
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
-/*TÃ­tulos do meio e canto direito*/
+/*Títulos do meio e canto direito*/
 .fale-title,
 .contatos-title {
   height: 20px;
@@ -225,15 +224,15 @@ footer {
   font-weight: lighter;
 }
 
-/*Ã­cones*/
+/*ícones*/
 #icone-lk {
   width: 24px;
   height: 24px;
 }
 
 #icone-fb {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
 }
 
 #icone-inst {
@@ -248,13 +247,12 @@ footer {
   vertical-align: middle;
 }
 
-/*FormulÃ¡rio*/
+/*Formulário*/
 
 form {
   display: row;
   justify-content: right;
 }
-
 input {
   height: 32px;
   width: 262px;
@@ -300,7 +298,7 @@ textarea {
   color: var(--primary-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration-line: underline;
   font-family: var(--primary-font);
