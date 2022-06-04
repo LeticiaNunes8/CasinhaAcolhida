@@ -9,6 +9,7 @@ body {
   font-family: var(--primary-font);
   margin: 0px;
   max-width: 100%;
+  font-size: 16px;
 }
 
 /* Header principal */
@@ -55,7 +56,7 @@ body {
 #col-links {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
   height: fit-content;
   padding-right: 150px;
   width: 1000px;
@@ -100,7 +101,7 @@ a:hover {
   height: 52px;
   width: 222px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -119,7 +120,7 @@ a:hover {
 .infos {
   margin-left: 150px;
   position: absolute;
-  margin-top: 110px;
+  margin-top: 140px;
 }
 
 /*Porque ajudar e como contribuir*/
@@ -127,7 +128,7 @@ a:hover {
   height: 20px;
   margin-left: 150px;
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -155,7 +156,7 @@ a:hover {
 .icon-contr,
 .circulo {
   max-width: 30%;
-  max-height: 80px;
+  max-height: 50px;
   width: auto;
   height: auto;
   padding-right: 15px;
@@ -165,17 +166,20 @@ a:hover {
   padding-top: 15px;
   max-width: 100%;
   margin: 0px;
+  font-size: 16px;
 }
 
 /*saiba mais*/
 
 #outras_info {
+  position: relative;
+  bottom: 30px;
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   margin-left: 150px;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .link-casinha:hover,
@@ -213,14 +217,14 @@ a:hover {
 
 .historia {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   max-width: 100%;
 }
 
 #card-hist {
-  width: 232px;
-  height: 232px;
+  width: 222px;
+  height: 222px;
   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
   border-radius: 30px;
   border-color: transparent;
@@ -243,7 +247,7 @@ a:hover {
 .quantidade {
   font-weight: bold;
   color: #007940;
-  font-size: 64px;
+  font-size: 50px;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -263,7 +267,7 @@ a:hover {
   width: 1000px;
   font-weight: 300;
   bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   max-width: 100%;
 }
@@ -273,7 +277,7 @@ a:hover {
 #titulo-atuacao {
   padding-left: 150px;
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   max-width: 100%;
 }
@@ -324,7 +328,7 @@ a:hover {
   align-items: center;
   text-align: center;
   border-color: transparent;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 #espaco {
@@ -356,7 +360,7 @@ a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration-line: underline;
   color: var(--primary-color);
@@ -366,7 +370,7 @@ a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   color: #535353;
   margin-left: 35px;
@@ -376,7 +380,7 @@ a:hover {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 42px;
   color: #702283;
   margin-top: 50px;
@@ -387,8 +391,8 @@ a:hover {
 .div-parceiros {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 6%;
+  margin-bottom: 6%;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -404,16 +408,16 @@ a:hover {
   height: 20px;
   padding-left: 150px;
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 #foto-nat,
 #foto-doug {
-  width: 270px;
-  height: 258.04px;
+  width: 240px;
+  height: 230px;
   position: relative;
-  bottom: 110px;
+  bottom: 100px;
 }
 
 #linha-nat,
@@ -464,7 +468,7 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   position: relative;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -477,7 +481,7 @@ a:hover {
 .conheca {
   padding-top: 10px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration: underline;
   color: var(--primary-color);
@@ -505,11 +509,11 @@ footer {
 .os-links {
   font-family: var(--primary-font);
   line-height: 10px;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .icon-footer {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -532,6 +536,7 @@ footer {
   line-height: 10px;
   font-weight: lighter;
 }
+
 .fale-conosco {
   width: 265px;
   height: 393px;
@@ -546,8 +551,8 @@ footer {
 }
 
 #icone-fb {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
 }
 
 #icone-inst {
@@ -613,7 +618,7 @@ textarea {
   color: var(--primary-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   text-decoration-line: underline;
   font-family: var(--primary-font);
