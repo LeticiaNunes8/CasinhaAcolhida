@@ -7,8 +7,10 @@
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
-  margin: 0px auto;
+  margin: 0px;
   max-width: 100%;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 /* Header principal */
@@ -55,7 +57,7 @@ body {
 #col-links {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
   height: fit-content;
   padding-right: 150px;
   width: 1000px;
@@ -69,7 +71,7 @@ a {
 
 a:hover {
   color: var(--primary-color);
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 /* Link ativado da header */
@@ -240,6 +242,7 @@ input {
   border-color: transparent;
   font-family: var(--primary-font);
   padding-left: 20px;
+  font-size: 16px;
 }
 
 textarea {
@@ -251,6 +254,7 @@ textarea {
   font-family: var(--primary-font);
   padding-left: 20px;
   padding-top: 10px;
+  font-size: 16px;
 }
 
 .enviar-botao {
@@ -276,7 +280,7 @@ textarea {
   color: var(--primary-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 23px;
   text-decoration-line: underline;
   font-family: var(--primary-font);
