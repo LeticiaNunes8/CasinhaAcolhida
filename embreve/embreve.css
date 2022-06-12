@@ -7,8 +7,10 @@
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
-  margin: 0px auto;
+  margin: 0px;
   max-width: 100%;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 /* Header principal */
@@ -55,7 +57,7 @@ body {
 #col-links {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
   height: fit-content;
   padding-right: 150px;
   width: 1000px;
@@ -69,7 +71,7 @@ a {
 
 a:hover {
   color: var(--primary-color);
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 /* Link ativado da header */
@@ -185,20 +187,19 @@ footer {
   vertical-align: center;
 }
 
-/*Links e Ã­cone da pÃ¡gina no footer - canto esquerdo*/
+/*Links e ícone da página no footer - canto esquerdo*/
 .os-links {
   font-family: var(--primary-font);
   line-height: 10px;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 
 .icon-footer {
-  padding-top: 30px;
-
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
-/*TÃ­tulos do meio e canto direito*/
+/*Títulos do meio e canto direito*/
 .fale-title,
 .contatos-title {
   height: 20px;
@@ -225,15 +226,15 @@ footer {
   font-weight: lighter;
 }
 
-/*Ã­cones*/
+/*ícones*/
 #icone-lk {
   width: 24px;
   height: 24px;
 }
 
 #icone-fb {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
 }
 
 #icone-inst {
@@ -248,13 +249,12 @@ footer {
   vertical-align: middle;
 }
 
-/*FormulÃ¡rio*/
+/*Formulário*/
 
 form {
   display: row;
   justify-content: right;
 }
-
 input {
   height: 32px;
   width: 262px;
@@ -264,6 +264,7 @@ input {
   border-color: transparent;
   font-family: var(--primary-font);
   padding-left: 20px;
+  font-size: 16px;
 }
 
 textarea {
@@ -275,6 +276,7 @@ textarea {
   font-family: var(--primary-font);
   padding-left: 20px;
   padding-top: 10px;
+  font-size: 16px;
 }
 
 .enviar-botao {
@@ -300,7 +302,7 @@ textarea {
   color: var(--primary-color);
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 23px;
   text-decoration-line: underline;
   font-family: var(--primary-font);
