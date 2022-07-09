@@ -151,6 +151,10 @@ a:hover {
   vertical-align: middle;
 }
 
+.card-body1 {
+  padding-top: 40px;
+}
+
 #todos-botoes {
   display: flex;
   justify-content: center;
@@ -177,6 +181,14 @@ a:hover {
   background: #ffffff;
   align-items: center;
   border-color: transparent;
+}
+
+#img-cardj {
+  padding-top: 15px;
+}
+
+.pessoaj {
+  padding-top: 10px;
 }
 
 .link-fisica-juridica {
