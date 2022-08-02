@@ -83,7 +83,7 @@ a:hover {
 
 /*Imagem principal*/
 .imagem {
-  background-image: url("../img/bannerajuda.png");
+  background-image: url("../img/banner_ajuda.png");
   width: 100%;
   height: 425px;
   background-position: center;
@@ -93,17 +93,16 @@ a:hover {
 /*Como Ajudar*/
 
 #titulo {
-  height: 20px;
+  height: 5px;
   margin-left: 150px;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
-  padding-top: 50px;
 }
 
 #info-titulo {
   margin-left: 150px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*Todas pessoas - vinda da nossa area de atuação */
@@ -113,7 +112,7 @@ a:hover {
 }
 .titulo-pessoas {
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 24px;
   max-width: 100%;
 }
 
@@ -139,7 +138,6 @@ a:hover {
 
 #container-tudo {
   background-color: #f4f4f4;
-  width: 1440px;
   height: 364px;
   max-width: 100%;
   margin-top: 70px;
@@ -175,8 +173,8 @@ a:hover {
 }
 
 #card-hist {
-  width: 222px;
-  height: 222px;
+  width: 251.72px;
+  height: 251.72px;
   border-radius: 30px;
   box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
   background: #ffffff;
