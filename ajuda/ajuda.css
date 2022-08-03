@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Variáveis */
 :root {
   --primary-font: "Roboto", sans-serif;
@@ -98,6 +104,7 @@ a:hover {
   color: var(--primary-color);
   font-size: 24px;
   font-weight: 700;
+  margin-top: 40px;
 }
 
 #info-titulo {
@@ -114,6 +121,7 @@ a:hover {
   color: var(--primary-color);
   font-size: 24px;
   max-width: 100%;
+  margin-left: 150px;
 }
 
 #linha-pessoafisica {
@@ -141,6 +149,7 @@ a:hover {
   height: 364px;
   max-width: 100%;
   margin-top: 70px;
+  flex-direction: row;
 }
 
 /*Todas pessoas - cards - vinda da nossa area de atuação*/
@@ -150,19 +159,29 @@ a:hover {
   vertical-align: middle;
 }
 
-.card-body1 {
-  padding-top: 40px;
+.card {
+  width: 274px;
+  display: flex;
+  justify-content: center;
+}
+
+#row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #todos-botoes {
+  margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   max-width: 100%;
   height: 364px;
-  position: relative;
+  align-items: center;
 }
 
-#card-body-hist {
+#card-body-hist,
+#card-areas {
   padding-top: 50px;
   font-style: normal;
   font-weight: 300;
@@ -170,9 +189,11 @@ a:hover {
   line-height: 28px;
   text-align: center;
   color: black;
+  background-color: white;
+  border-color: transparent;
 }
 
-#card-hist {
+#card-areas {
   width: 251.72px;
   height: 251.72px;
   border-radius: 30px;
@@ -180,6 +201,54 @@ a:hover {
   background: #ffffff;
   align-items: center;
   border-color: transparent;
+  padding-bottom: 15%;
+}
+
+#card-hist {
+  margin: 0px;
+  width: 251.72px;
+  height: 251.72px;
+  border-radius: 30px;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+/* Modal */
+
+.modal-body {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #535353;
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+.modal-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  color: #702283;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.modal-title-sub {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #702283;
+  margin-left: 50px;
 }
 
 #img-cardj {
