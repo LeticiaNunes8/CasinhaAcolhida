@@ -74,7 +74,7 @@ a:hover {
 
 /*Imagem principal*/
 .imagem {
-  background-image: url("../img/banner.png");
+  background-image: url("../../img/doar_banner.png");
   width: 100%;
   height: 400px;
   background-position: center;
@@ -118,7 +118,7 @@ a:hover {
 /*FIM DO HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 body {
-  font-family: "montserratmedium";
+  font-family: "Roboto", sans-serif;
 
   background-color: #ffffff !important;
   background-attachment: fixed;
@@ -138,6 +138,9 @@ h6 {
   font-weight: 400 !important;
 }
 
+#text{
+  font-family: "Roboto", sans-serif;
+}
 .title {
   color: #702283 !important;
   font-size: 28px;
