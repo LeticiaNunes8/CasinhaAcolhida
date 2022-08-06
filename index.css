@@ -384,7 +384,9 @@ a:hover {
   line-height: 23px;
   color: #535353;
   margin-left: 35px;
+  margin-right: 35px;
   margin-bottom: 50px;
+  text-align: justify;
 }
 .modal-title {
   font-family: var(--primary-font);
