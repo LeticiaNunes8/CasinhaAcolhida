@@ -34,6 +34,10 @@
   width: 95px;
 }
 
+.img-fluid {
+  max-width: 150%;
+}
+
 #coluna-icone {
   margin: 0px;
   padding-left: 150px;
@@ -50,8 +54,8 @@
   font-size: 16px;
   height: fit-content;
   padding-right: 150px;
-  width: 1000px;
-  padding-left: 130px;
+  width: 950px;
+  padding-left: 290px;
 }
 
 a {
@@ -74,7 +78,7 @@ a:hover {
 
 /*Imagem principal*/
 .imagem {
-  background-image: url("../../img/doar_banner.png");
+  background-image: url("../imgNossas/doar_banner.png");
   width: 100%;
   height: 400px;
   background-position: center;
@@ -138,7 +142,7 @@ h6 {
   font-weight: 400 !important;
 }
 
-#text{
+#text {
   font-family: "Roboto", sans-serif;
 }
 .title {
@@ -2086,15 +2090,15 @@ footer {
 }
 
 #icone-fb {
-  width: 23px;
-  height: 23px;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 3px;
 }
 
 #icone-inst {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  bottom: 3px;
+  width: 24px;
+  height: 24px;
 }
 
 .icons {
