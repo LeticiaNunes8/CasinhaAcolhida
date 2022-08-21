@@ -1,0 +1,369 @@
+/* Variáveis */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --primary-color: #702283;
+  }
+  
+  /* Informações do Body */
+  body {
+    font-family: var(--primary-font);
+    margin: 0px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.2;
+    overflow-x: hidden;
+  }
+  
+  /* Header principal */
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 144px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 247, 231) 12%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
+  .container-fluid {
+    max-width: 100%;
+    width: 100%;
+    padding: 0%;
+  }
+  
+  /* Logo roxa do header */
+  
+  #logo {
+    margin: 0px;
+    height: 105px;
+    width: 95px;
+  }
+  
+  .img-fluid {
+    max-width: 150%;
+  }
+  
+  #coluna-icone {
+    margin: 0px;
+    padding-left: 150px;
+    border: 0px;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  /*Links da Header */
+  
+  #col-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    height: fit-content;
+    padding-right: 150px;
+    width: 900px;
+  }
+  
+  a {
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: var(--primary-color);
+    cursor: pointer !important;
+  }
+  
+  .col-10 p{
+    cursor: pointer;
+  }
+  
+  /* Link ativado da header */
+  .inicio {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  /*Imagem principal*/
+  .imagem {
+    background-image: url("../imgNossas/bannerProjetos.png");
+    width: 100%;
+    height: 425px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+  #titulo {
+    height: 5px;
+    margin-left: 150px;
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  
+  #info-titulo {
+    margin-left: 150px;
+    font-size: 16px;
+  }
+
+
+  /*INFO BODY*/
+
+  .link-casinha:hover,
+  .link-casinha {
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+  
+  
+
+  /*Linha toda dos cards*/
+#container-tudo {
+    height: 500px;
+    max-width: 100%;
+    margin-top: 70px;
+    flex-direction: row;
+    margin-right: 43px;
+  }
+  
+  /*TITULOS FORA DOS CARDS*/
+
+.titulo-body{
+    height: 5px;
+    margin-left: 150px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: -50px;
+  }
+
+
+  /*Cards*/
+  
+  .card {
+    width: 419px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #todos-botoes {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    max-width: 100%;
+    height: 364px;
+    align-items: center;
+  }
+  
+  /*Dentro do card*/
+  #card-body-hist {
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: transparent;
+  }
+  
+  #card-hist,
+  #card-body-hist {
+    margin: 0px;
+    width: 400px;
+    height: 304px;
+    border-radius: 30px;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  /*título do card*/
+  .titulo-card {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /*color: #702283;*/
+  }
+  
+  /*texto do card*/
+  .texto-card {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 18px;
+  }
+
+strong{
+    font-weight: 700;
+}
+
+
+
+  /*footer*/
+
+footer {
+    background: linear-gradient(180deg, rgb(255, 254, 253) 30%, #eec5d4 70%);
+    height: 751px;
+    width: 100%;
+    vertical-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    vertical-align: center;
+  }
+  
+  /*Links e ícone da página no footer - canto esquerdo*/
+  .os-links {
+    font-family: var(--primary-font);
+    line-height: 10px;
+    padding-top: 0px;
+  }
+  
+  .icon-footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  /*Títulos do meio e canto direito*/
+  .fale-title,
+  .contatos-title {
+    height: 20px;
+    color: var(--primary-color);
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  
+  /*Texto menor das 3 sessoes*/
+  .os-links,
+  .contatos {
+    width: 350px;
+    height: 393px;
+    line-height: 10px;
+    font-weight: lighter;
+  }
+  
+  .fale-conosco {
+    width: 265px;
+    height: 393px;
+    line-height: 10px;
+    font-weight: lighter;
+  }
+  
+  /*ícones*/
+  #icone-lk {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #icone-fb {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+  }
+  
+  #icone-inst {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icons {
+    width: 110px;
+    display: inline-flex;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  
+  /*Formulário*/
+  
+  form {
+    display: row;
+    justify-content: right;
+  }
+  input {
+    height: 32px;
+    width: 262px;
+    background: #ffffff;
+    box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    border-color: transparent;
+    font-family: var(--primary-font);
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 262px;
+    background: #ffffff;
+    box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    border-color: transparent;
+    font-family: var(--primary-font);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  
+  .enviar-botao {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 20px;
+    border: 3px solid var(--primary-color);
+    box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.23);
+    border-radius: 12px;
+    height: 32px;
+    width: 265px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+  .enviar-botao:hover {
+    cursor: pointer;
+  }
+  
+  /*Devs*/
+  #devs {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    font-family: var(--primary-font);
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*Copyright*/
+  .copyright {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+  }
+  
