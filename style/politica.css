@@ -79,6 +79,10 @@ a:hover {
   cursor: pointer !important;
 }
 
+.col-10 p{
+  cursor: pointer;
+}
+
 /* Link ativado da header */
 .inicio {
   font-family: var(--primary-font);

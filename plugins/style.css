@@ -55,7 +55,8 @@
   height: fit-content;
   padding-right: 150px;
   width: 950px;
-  padding-left: 290px;
+  padding-left: 700px;
+  /*padding-left: 290px;*/
 }
 
 a {
@@ -67,6 +68,10 @@ a {
 a:hover {
   color: var(--primary-color);
   cursor: pointer !important;
+}
+
+.col-10 p{
+  cursor: pointer;
 }
 
 /* Link ativado da header */
