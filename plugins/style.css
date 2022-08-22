@@ -55,8 +55,8 @@
   height: fit-content;
   padding-right: 150px;
   width: 950px;
-  padding-left: 700px;
-  /*padding-left: 290px;*/
+  /*padding-left: 700px;*/
+  padding-left: 220px;
 }
 
 a {
@@ -70,7 +70,7 @@ a:hover {
   cursor: pointer !important;
 }
 
-.col-10 p{
+.col-10 p {
   cursor: pointer;
 }
 
