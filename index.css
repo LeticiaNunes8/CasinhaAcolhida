@@ -4,6 +4,66 @@
   --primary-color: #702283;
 }
 
+.modal-content-page-inicial{
+  background: linear-gradient(to bottom right,#C0175B, #AA145E, #840F64,#660B69,#50096D,#44076F,#400770);
+  border-radius: 30px;
+  height: 460px;
+  width: 908px;
+}
+
+
+
+/*TITULO MODAL PAGINA INICIAL*/
+.modal-page{
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  color: #F8BC2E;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/*TEXTO MODAL PAGINA INICIAL*/
+#modal-text{
+ 
+  color: #FFF;
+  font-size: 16px;
+  margin-left: 50px
+}
+
+#modal-text-color{
+  color: #F8BC2E;
+  font-size: 16px;
+  font-weight: 550;
+  margin-left: 50px
+}
+
+.modal-button{
+  width: 340px;
+  margin-left: 50px;
+  height: 60px;
+  border-radius: 12px;
+  color: #702283;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500
+}
+
+.modal-button:hover {
+  cursor: pointer !important;
+}
+
+#modal-logo{
+  width: 320px;
+  height: 61px;
+  margin-left: 50px;
+}
+
+
+
+
 /* Informações do Body */
 body {
   font-family: var(--primary-font);
@@ -116,8 +176,9 @@ a:hover {
 }
 
 .botao:hover {
-  cursor: pointer !important;
+  cursor: pointer;
 }
+
 
 /*Div e frase dentro da imagem*/
 .doe {

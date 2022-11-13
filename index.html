@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=1500, initial-scale=1">
   <title>Casinha Acolhida🌈</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -12,9 +13,59 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link href="index.css" rel="stylesheet">
   <link href="img/logo-principal.svg" rel="icon">
+
+
 </head>
 
 <body>
+
+
+
+  <!--MODAL PAGINA INICIAL CASINHA-->
+
+
+
+
+  <div id="ModalFinanciamento" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document" id="modal">
+      <div class="modal-content-page-inicial">
+        <p class="modal-page" id="exampleModalLongTitle">Campanha #CasinhaResiste</p>
+        <div class="modal-page-inicial">
+          <br>
+          <p id="modal-text">Lançamos a campanha de financiamento coletivo #CasinhaResiste 🏳️‍🌈 com o objetivo de<br> manter a Casinha viva, 
+            para continuar sendo uma referência em acolhimento à população<br> LGBTQIAP+.
+            <br><br>
+            Venha conhecer um pouco mais sobre essa campanha e a colaborar com qualquer valor!
+            <br>
+          </p>
+          <p id="modal-text-color">
+            Essa campanha é sobre se posicionar a favor de vidas LGBTQIAP+, contra o retrocesso e a<br> violação de direitos humanos. 
+            Juntes, resistimos. Com você, a #CasinhaResiste.</p>
+            <br><br>
+            <button class="modal-button"> 
+              <a href="https://benfeitoria.com/projeto/casinharesiste"></a>
+                Acessar Financiamento Coletivo
+              </button>
+            <img id="modal-logo" src="img/modal-logo.svg" alt=""></img>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <header>
     <div class="container-fluid">
       <div class='row' id="header">
@@ -484,6 +535,9 @@
       <p>© 2022 ONG Casinha Acolhida</p>
     </div>
   </footer>
+
+
+
   <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
   <script>
     var ht = new HT({
@@ -503,5 +557,15 @@
     crossorigin="anonymous"></script>
   <script src="script/index.js"></script>
 </body>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#ModalFinanciamento").modal('show');
+  });
+</script>
 
 </html>
